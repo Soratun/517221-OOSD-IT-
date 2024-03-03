@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=WhippedCream
+comment1.params=beverage
+comment1.target=WhippedCream(Beverage)
+comment2.params=
+comment2.target=java.lang.String\ getOrder()
+comment3.params=
+comment3.target=int\ cost()
+numComments=4

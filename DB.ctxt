@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=DB
+comment1.params=
+comment1.target=DB()
+comment2.params=p
+comment2.target=void\ addproduct(Beverage)
+comment3.params=
+comment3.target=void\ deleteAll()
+comment3.text=public\ void\ addproduct(String\ id,\ int\ price,String\ name,int\ stamp){\r\n\ \ \ \ \ \ \ \ \ \ \ \ listProduct.add(new\ Room(id,price,name));\r\n}
+comment4.params=pId
+comment4.target=Beverage\ search(java.lang.String)
+comment4.text=public\ void\ editproduct(String\ pId,String\ type)\r\n\ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ //\ listProduct.remove();\r\n\ \ \ \ \ \ \ \ \ \ \ \ int\ i\=0;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ while\ (i<listProduct.size()){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Beverage\ z\ ;//\=\ new\ product();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ z\ \=\ listProduct.get(i);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if\ (z.getId().equals(pId)){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ z.setType(type);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ break;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ i\ \=\ i+1;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n}
+comment5.params=
+comment5.target=int\ printAll()
+numComments=6
